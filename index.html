@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css">
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <title>My profile</title>
+        <link rel = "stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        <!-- HTML Code-->
+
+        <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+            <a class="navbar-brand" href="#">My Profile</a>
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#pi">@Personal Information</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#link">@Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#hob">@hobby</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#int">@Interest</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#eb">@Educational Background</a>
+              </li>
+            </ul>
+        </nav><br>
+        
+
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
+            <h1>My profile</h1><br>
+            <img src="photo.png" width="400">
+            <h2 id="pi"><span class = "font-monospace">Name :</span> <spac class = "nm">Dongbin Kim</spac><br><br>
+            <h2 id="pi"><p class = "font-monospace">Affiliation : </p></h2>
+            <ol>
+                <p class= "user-select-all fw-bolder"><i class="fa fa-book" aria-hidden="true"></i> SungKyunKwan University Department of Software</p>
+                  <p class= "user-select-all fw-bolder"><i class="fa fa-star-o" aria-hidden="true"></i> SKKU Software Ambassador Alimi 10th</p>
+            </ol><br>
+            
+            <ul>
+                <li><p>My University Department Link: <a href = "https://cs.skku.edu/ko/">https://cs.skku.edu/ko/</a></p></li>
+                <li><p>SKKU Software Ambassador Alimi Link: <a href = "https://www.instagram.com/skku_software_alimi/">https://www.instagram.com/skku_software_alimi/</a></p></li>
+                <li><p>Sungkyunkwan University Software Department Introduction Video</p></li>
+                <div class="ratio ratio-16x9">
+                    <iframe width="75%" height="400" src="https://www.youtube.com/embed/E16D3fskL38" title="YouTube video" allowfullscreen></iframe>
+                </div>
+            </ul>
+            <br>
+            
+            <h2 id="pi"><span class = "font-monospace">Email : </span><span id="email">ehdqls0212@naver.com</span></h2><br>
+            <h2 id="link"><p class = "font-monospace">Related Links : </p></h2>
+            <ul>
+                <li><div class="shadow p-3 mb-3 bg-body rounded w-50"><i class="fa fa-github" aria-hidden="true"></i> My GitHub Link: <a href = "https://github.com/EastShineK">https://github.com/EastShineK</a></div></li>
+                <li><div class="shadow p-3 mb-5 bg-body rounded w-50"><i class="fa fa-instagram" aria-hidden="true"></i> My Instagram Link: <a href = "https://www.instagram.com/dongbin_k/">https://www.instagram.com/dongbin_k/</a></div></li>
+            </ul><br>
+
+            <h2 id="hob"><p class = "font-monospace">My hobbies : </p></h2>
+            <ul>
+                <li><div class="alert alert-primary" role="alert">
+                    Watching Soccer Game
+                </div></li>
+                <div style="width: 300px;margin: 30px;">
+                    <p class = "font-monospace">My favorite team is Real Madrid CF <br>and <br>My favorite soccer player is <br>Antoine Griezmann and Son</p>
+                    <div id="carousel-example-generic" class="carousel slide" >
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        </ol>
+                       
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="real.png" style="width:100%">
+                            <div class="carousel-caption" style="color:yellow;">
+                            My Favorite Team
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="player.png" style="width:100%">
+                            <div class="carousel-caption" style="color:yellow;">
+                            My Favorite Player
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="son.png" style="width:100%">
+                            <div class="carousel-caption" style="color:yellow;">
+                            The proudest soccer player
+                            </div>
+                        </div>
+                    </div>
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+
+
+                <li><div class="alert alert-warning" role="alert">
+                    Listening a Music
+                </div></li>
+                <div style="width: 300px;margin: 30px;">
+                    <p class = "font-monospace">My favorite singer is Punch and Heize <br>and<br>My favorite song is 'Done for me'</p>
+                    <div id="carousel-example-generic2" class="carousel slide" >
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic2" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic2" data-slide-to="1"></li>
+                        </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="punch.png" style="width:100%">
+                            <div class="carousel-caption" style="color:yellow;">
+                            My Favorite Singer1
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="singer2.jpg" style="width:100%">
+                            <div class="carousel-caption" style="color:yellow;">
+                            My Favorite Singer2
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="song.jpg" style="width:100%">
+                            <div class="carousel-caption" style="color:yellow;">
+                            My Favorite Song
+                            </div>
+                        </div>
+                    </div>
+                        <a class="left carousel-control" href="#carousel-example-generic2" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic2" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+
+                <li><div class="alert alert-dark" role="alert">
+                    Watching Movie and Drama
+                </div></li>
+                <div style="width: 300px;margin: 30px;">
+                    <p class = "font-monospace">My favorite Drama is <br>'Moon Lovers: Scarlet Heart Ryeo' <br>and<br>My favorite movie is <br>'Your Name' and 'Avengers'</p>
+                    <div id="carousel-example-generic3" class="carousel slide" >
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic3" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic3" data-slide-to="1"></li>
+                        </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="moon.jpg" style="width:100%">
+                            <div class="carousel-caption" style="color:yellow;">
+                            My Favorite Drama
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="name.jpeg" style="width:100%">
+                            <div class="carousel-caption" style="color:yellow;">
+                            My Favorite Movie
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="end.jpg" style="width:100%">
+                            <div class="carousel-caption" style="color:yellow;">
+                            An Interesting Movie
+                            </div>
+                        </div>
+                    </div>
+                        <a class="left carousel-control" href="#carousel-example-generic3" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic3" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+                
+
+            </ul><br>
+            <h2 id ="int"><p class = "font-monospace">My Interests : </p></h2>
+            <ul>
+                <li><div class="alert alert-primary" role="alert">
+                    Artificial Intelligence
+                </div></li>
+                <li><div class="alert alert-warning" role="alert">
+                    Information Security
+                </div></li>
+                <li><div class="alert alert-dark" role="alert">
+                    Computer Graphics Special Effects
+                </div></li>
+            </ul><br>
+
+            <h2 id ="eb"><p class = "font-monospace">Educational Background :</p></h2>
+            <table id ="target">
+                <tr>
+                    <th><span class="badge bg-dark">Length of Enrollment</span></th>
+                    <th><span class="badge bg-dark">School Name</span></th>
+                </tr>
+                <tr>
+                    <td><div class="p-3 mb-2 bg-primary text-white rounded">2008.3 ~ 2013.2</div></td>
+                    <td><div class="p-3 mb-2 bg-success text-white rounded">Suseong Elementary School</div></td>
+                </tr>
+                <tr>
+                    <td><div class="p-3 mb-2 bg-primary text-white rounded">2013.3 ~ 2017.2</div></td>
+                    <td><div class="p-3 mb-2 bg-success text-white rounded">BusanSeo Middle School</div></td>
+                </tr>
+                <tr>
+                    <td><div class="p-3 mb-2 bg-primary text-white rounded">2017.3 ~ 2020.2</div></td>
+                    <td><div class="p-3 mb-2 bg-success text-white rounded">Geumseong High School</div></td>
+                </tr>
+                <tr>
+                    <td><div class="p-3 mb-2 bg-primary text-white rounded">2020.3 ~</div></td>
+                    <td><div class="p-3 mb-2 bg-success text-white rounded">SungKyunKwan University</div></td>
+                </tr>
+            </table>
+
+        </div>
+
+        <script>
+            $(function(){
+                $('#carousel-example-generic').carousel({
+                 interval: 4000,
+                 pause: "hover",
+                 wrap: true,
+                 keyboard : true
+                    });
+                });
+
+             $(function(){
+                $('#carousel-example-generic2').carousel({
+                 interval: 4000,
+                 pause: "hover",
+                 wrap: true,
+                 keyboard : true
+                    });
+                });
+
+            $(function(){
+                $('#carousel-example-generic3').carousel({
+                 interval: 4000,
+                 pause: "hover",
+                 wrap: true,
+                 keyboard : true
+                    });
+                });
+        </script>
+    
+    </body>
+</html>
